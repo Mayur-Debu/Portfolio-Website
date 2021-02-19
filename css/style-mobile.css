@@ -46,13 +46,23 @@
 				padding: 4em 15px 4em 15px;
 			}
 
-				.main.style1 h2 {
+				.main.style1 h2  {
 					font-size: 3em;
-					letter-spacing: -3px;
+					letter-spacing: -2px;
+					margin-top: revert;
+				}
+				.main.style1 p{
+					margin-top: 5rem;
+					text-align: left;
 				}
 
 			.main.style2 {
 				padding: 6em 15px 6em 15px;
+			}
+			
+			
+			.main.style2 .project p{
+				text-align: left;
 			}
 
 				.main.style2:before,
@@ -67,7 +77,8 @@
 				.main.style2 .content {
 					width: 100%;
 					left: 0% !important;
-					text-align: center;
+					text-align: -webkit-match-parent;
+					background-color: #f5f6f7;
 				}
 
 				.main.style2 .tmp {
