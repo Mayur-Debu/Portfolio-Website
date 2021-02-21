@@ -48,7 +48,7 @@
 
 				.main.style1 h2  {
 					font-size: 3em;
-					letter-spacing: -2px;
+					/* letter-spacing: -2px; */
 					margin-top: revert;
 				}
 				.main.style1 p{
