@@ -3,5 +3,6 @@
 ***
 
 ```
-hi
+Explore ME and My way of thinking.
+
 ```
