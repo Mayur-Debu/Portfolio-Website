@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title: A* path finding visualizer</title>
+    <meta name="description" content="Machine Learning Project" />
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+    <!--Header Section-->
+    <section class="bg-gradient pt-5 pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row align-items-center justify-content-between">
+                    <div class="heading-brand">Project Documentation</div>
+                    <a href="https://github.com/Mayur-Debu/A-PathFinder.git" class="btn btn-dark"
+                        target="_blank">Download</a>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1>A* Path Finding Visualizer</h1>
+                    <p class="lead mb-5">
+                        This project aims to demonstrate the working of A* path finding algorithm. <br> A* algorithm is
+                        known as shortest path finding algorithm.
+                        This ensures that the distance from the start node to the end node is minimum irrespecctive of
+                        the barriers between them.</p>
+                    <a href="https://github.com/Mayur-Debu/A-PathFinder.git" class="btn btn-success svg-icon">
+                        <em class="mr-2" data-feather="github"></em>
+                        Contribute
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9 mx-auto">
+                    <div class="code-window">
+                        <div class="dots">
+                            <div class="red"></div>
+                            <div class="orange"></div>
+                            <div class="green"></div>
+                        </div>
+                        <pre class="language- line-numbers "><code class="language-">$terminal>> git clone https://github.com/Mayur-Debu/A-PathFinder.git
+                            
+$terminal>> pip install -r requirements.txt
+                            
+$terminal>> python pathFinder.py
+
+# This are the controls of the visualization tool
+'''
+Red spot denotes 'start' node.                                                                                                     
+Green spot denotes 'end' node.                                                       
+Black node denotes 'barrier' nodes.                                                       
+Blue node denotes 'visited' nodes.                                                       
+Turquoise node denoted 'open' nodes.                                                       
+                                                       
+Mouse Control's:                                                       
+Left Click: Selecting the start node, end node and the barrier's.                                                       
+Right Click: Deselecting and reallocating the start, end and barrier nodes.                                                       
+                                                       
+Keyboard Control's:                                                       
+R: Generate random barrier's.                                                       
+C: Clear the Grid.                                                       
+SpaceBar: Start and stop the visualization.
+'''                                                       
+</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Features Section-->
+    <section class="py-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="text-center text-md-left">Features of <span class="text-success">A* path finding
+                            visualizer
+                        </span></h2>
+                    <div class="row feature-grid">
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <div class="icon-box">
+                                    <div class="icon-box-inner">
+                                        <span data-feather="user-check" width="28" height="28"></span>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    User Friendly
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <div class="icon-box">
+                                    <div class="icon-box-inner">
+                                        <span data-feather="code" width="28" height="28"></span>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    Data structures and algorithms
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <div class="icon-box">
+                                    <div class="icon-box-inner">
+                                        <span data-feather="users" width="28" height="28"></span>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    Engaging
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Used By Section-->
+    <section class="pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="text-center text-md-left">Tech Stack</h2>
+                    <p class="lead text-muted">Language and framework used in following project</p>
+                    <div class="mt-5  justify-content-md-between  press-icons">
+                        <img src="icons\iconfinder_267_Python_logo_4375050.png" alt="language-python" />
+                        <img src="icons\iconfinder_terminal_299044.png" height=60 alt="windows-powershell" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://github.com/Mayur-Debu/A-PathFinder.git">Fork
+                                on GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-4 mx-auto text-muted text-center small-xl">
+                    Made with ❤️ by me.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
