@@ -87,7 +87,6 @@ body {
   color: #343a40;
   text-align: left;
   background-color: #ffffff;
-  
 }
 
 [tabindex="-1"]:focus {
@@ -6835,10 +6834,6 @@ footer a {
   /* background: gray; */
   background-color: #b5afaf;
   background-image: linear-gradient(180deg, #b5afaf 0%, #ffffff 100%);
-  
-
-
-
 }
 
 /*Code Window*/
