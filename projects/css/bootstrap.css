@@ -8,6 +8,9 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
 :root {
   --blue: #0000ff;
   --indigo: #3d5afe;
@@ -35,11 +38,11 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: K2D, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  /* --font-family-sans-serif: K2D, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+    "Liberation Mono", "Courier New", monospace; */
 }
 
 *,
@@ -49,7 +52,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -77,15 +80,14 @@ section {
 
 body {
   margin: 0;
-  font-family: K2D, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #343a40;
   text-align: left;
   background-color: #ffffff;
+  
 }
 
 [tabindex="-1"]:focus {
@@ -6729,12 +6731,12 @@ a.text-dark:focus {
 Custom CSS
 *****************/
 ::-moz-selection {
-  background-color: #ffff00;
-  color: #000000;
+  background-color: var(--gray-dark);
+  color: white;
 }
 ::selection {
-  background-color: #ffff00;
-  color: #000000;
+  background-color: var(--gray-dark);
+  color: white;
 }
 
 a:not(.heading-brand) {
@@ -6830,7 +6832,13 @@ footer a {
 
 /*Gradients*/
 .bg-gradient {
-  background: linear-gradient(#ffff00, #ffff4d);
+  /* background: gray; */
+  background-color: #b5afaf;
+  background-image: linear-gradient(180deg, #b5afaf 0%, #ffffff 100%);
+  
+
+
+
 }
 
 /*Code Window*/
