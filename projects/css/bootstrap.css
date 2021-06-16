@@ -432,7 +432,6 @@ h6,
 
 .lead {
   font-size: 1.2rem;
-  font-weight: 500;
 }
 
 .display-1 {
@@ -550,14 +549,14 @@ mark,
   margin-left: auto;
 }
 
-.row {
+/* .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-}
+} */
 
 .no-gutters {
   margin-right: 0;
@@ -2132,8 +2131,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #ffffff;
-  background-color: #5cc72a;
-  border-color: #5cc72a;
+  background-color: black;
+  border-color: black;
 }
 .btn-success:hover {
   color: #ffffff;
@@ -6832,8 +6831,8 @@ footer a {
 /*Gradients*/
 .bg-gradient {
   /* background: gray; */
-  background-color: #b5afaf;
-  background-image: linear-gradient(180deg, #b5afaf 0%, #ffffff 100%);
+  /* background-color: #b5afaf;
+  background-image: linear-gradient(180deg, #b5afaf 0%, #ffffff 100%); */
 }
 
 /*Code Window*/
