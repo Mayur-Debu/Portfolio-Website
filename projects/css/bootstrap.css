@@ -6762,6 +6762,7 @@ a:not(.heading-brand) {
 /* Buttons */
 .btn {
   box-shadow: 0 4px 6px rgba(255, 255, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
 }
 .btn:active,
 .btn:focus,
